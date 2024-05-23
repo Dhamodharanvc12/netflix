@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111 30">
+            <path fill="#E50914" d="M0 0h10v29.6307H0V0zm18.7993 0v29.6307h-9.733V0h9.733zM16.0794 0v29.6307h-3.4065V0h3.4065zM24.1604 0v29.6307h-2.8274V0h2.8274zm0 0v11.2244c-.5632-.6256-1.1386-1.2681-1.723-1.937-1.8674-2.2107-4.089-3.3414-6.7645-3.3414V0h-3.837v29.6307h3.837V16.1046c1.0654.4258 2.0671.948 2.9981 1.5484 2.2595 1.458 3.9927 3.2724 5.1927 5.4465V0h3.837v11.2244c-.5632-.6256-1.1386-1.2681-1.723-1.937-1.8674-2.2107-4.089-3.3414-6.7645-3.3414V0h-3.837zM34.5082 16.8823c-.7831 0-1.4116-.6285-1.4116-1.4116 0-.7831.6285-1.4116 1.4116-1.4116.7831 0 1.4116.6285 1.4116 1.4116 0 .7831-.6285 1.4116-1.4116 1.4116zm.1615-4.373c-1.8227 0-3.3036 1.4809-3.3036 3.3036 0 1.8227 1.4809 3.3036 3.3036 3.3036s3.3036-1.4809 3.3036-3.3036c0-1.8227-1.4809-3.3036-3.3036-3.3036zm0 0l3.504 10.8644h-6.9999l3.4959-10.8644zm12.592 6.4018h3.628l.8185-2.9925 1.2188 2.9925h4.312l-2.639-5.6849 2.5572-5.1794h-4.217l-1.6574 2.902-1.472-2.902h-4.2454l2.6141 5.1794-2.6172 5.6849zM59.079 9.1083h-3.7443l-5.0664 13.6402h3.9931l1.046-2.8799h5.0482l1.051 2.8799h3.9931l-5.0745-13.6402zm0 8.191h-3.3275l1.672-4.6932 1.6554 4.6932zm14.912 5.4492c-.7831 0-1.4116-.6285-1.4116-1.4116 0-.7831.6285-1.4116 1.4116-1.4116.7831 0 1.4116.6285 1.4116 1.4116 0 .7831-.6285 1.4116-1.4116 1.4116zm.1615-4.373c-1.8227 0-3.3036 1.4809-3.3036 3.3036 0 1.8227 1.4809 3.3036 3.3036 3.3036s3.3036-1.4809 3.3036-3.3036c0-1.8227-1.4809-3.3036-3.3036-3.3036zm0 0l3.504 10.8644h-6.9999l3.4959-10.8644zm13.2843-4.2007c-.8664 0-1.5652.6988-1.5652 1.5652s.6988 1.5652 1.5652 1.5652c.8664 0 1.5652-.6988 1.5652-1.5652s-.6988-1.5652-1.5652-1.5652zm0 0h-2.3354c-.5537 0-1.065.3697-1.2233.8977-.1582.5281.0887 1.096.564 1.3148l4.0706 1.8323c.4663.2102.7746.7045.7746 1.244 0 .7831-.6285 1.4116-1.4116 1.4116h-2.7381c-.7831 0-1.4116-.6285-1.4116-1.4116 0-.7831.6285-1.4116 1.4116-1.4116h2.3354c.5537 0 1.065-.3697 1.2233-.8977.1582-.5281-.0887-1.096-.564-1.3148l-4.0706-1.8323c-.4663-.2102-.7746-.7045-.7746-1.244 0-.7831.6285-1.4116 1.4116-1.4116zm13.5912 4.2976h-3.3239l-1.4378 4.437h-3.6583l4.9627-13.6402h4.5223l4.9627 13.6402h-3.687l-1.4417-4.437zm-1.6619-5.1372l-1.328 4.0437h2.656l-1.328-4.0437zm10.9248 1.1167h4.8264l-3.6273-4.8264h-1.1991v4.8264zm1.1991 8.2694c1.8227 0 3.3036-1.4809 3.3036-3.3036 0-1.8227-1.4809-3.3036-3.3036-3.3036h-1.1973v6.6072h1.1973zm-3.7442-13.6402h4.9425c5.2873 0 7.1162 2.0287 7.1162 5.5042 0 2.0027-1.1447 3.8528-3.0244 4.6557l3.4797 3.6143h-4.3082l-3.0615-3.6827v3.6827h-4.1442V0h-.0001z"/>
+          </svg>
+    </div>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Sign In</h1>
+            <form>
+                <div class="input-box">
+                    <input type="email" placeholder="Email or phone number" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <button type="submit">Sign In</button>
+                <div class="or-section">
+                    <span>OR</span>
+                </div>
+                
+                <div class="alternative-signin">
+                    <button type="button" class="code-button">Sign in with code</button>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot password?</a>
+                </div>
+                <div class="help-section">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <a href="#">Need help?</a>
+                </div>
+            </form>
+            <div class="signup-section">
+                <p>New to Netflix? <a href="#">Sign up now</a></p>
+            </div>
+            <div class="terms-section">
+                <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>Questions? Contact us.</p>
+            <div class="footer-links">
+                <a href="#">FAQ</a>
+                <a href="#">Help Center</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Corporate Information</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

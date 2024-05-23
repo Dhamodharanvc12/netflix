@@ -1,0 +1,192 @@
+body {
+    background-image: url(https://repository-images.githubusercontent.com/299409710/b42f7780-0fe1-11eb-8460-e459acd20fb4);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 100px;
+    color: #fff;
+}
+
+
+.login-container {
+    background: rgba(0, 0, 0, 0.635);
+    padding: 60px 68px 40px;
+    border-radius: 4px;
+    max-width: 320px;
+    width: 100%;
+    text-align: left;
+}
+.logo{
+    position: absolute;
+    top: -10px;;
+    left: -10px;
+}
+
+.login-box h1 {
+    margin: 0 0 28px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.input-box {
+    margin-bottom: 16px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    background:transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #e50914;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 24px;
+    font-weight: 700;
+}
+
+button:hover {
+    background: #f40612;
+}
+
+.help-section {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #fafafa;
+    margin-top: 16px;
+}
+
+.help-section a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.help-section a:hover {
+    text-decoration: underline;
+}
+
+.alternative-signin {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.code-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #75757570;
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.code-button:hover {
+    background: rgba(159, 157, 157, 0.146);
+    color: #ffffff;
+}
+
+.forgot-password {
+    margin-top: 16px;
+    text-align: center;
+    
+}
+
+.forgot-password a {
+    color: #fefefe;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.signup-section {
+    margin-top: 24px;
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+.signup-section a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.signup-section a:hover {
+    text-decoration: underline;
+}
+
+.terms-section {
+    margin-top: 24px;
+    font-size: 12px;
+    color: #8c8c8c;
+    line-height: 1.4;
+}
+
+footer {
+    background: rgb(7, 7, 7);
+    width: 100%;
+    height: 20%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: -250px; ;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #8c8c8c;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.or-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 15px;
+    color: #b3b3b3;
+    margin-bottom: -16px;
+}
