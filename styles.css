@@ -8,6 +8,7 @@ body {
     height: 150%;
     margin: 100px;
     color: #fff;
+    background-color: black;
 }
 .header{
     position: absolute;
@@ -18,11 +19,8 @@ body {
 
 .img-netflixIcon {
     height: 80px;
-    width: 155px;
-   
-    justify-items: flex-start;
+    width: 155px; 
 }
-
 
 .login-container {
     background: rgba(0, 0, 0, 0.635);
@@ -31,11 +29,6 @@ body {
     max-width: 320px;
     width: 100%;
     text-align: left;
-}
-.logo{
-    position: absolute;
-    top: 0px;;
-    left: 0px;
 }
 
 .login-box h1 {
@@ -236,84 +229,85 @@ body {
     margin-bottom: -16px;
 }
 /* Responsive styles */
-@media screen and (max-width: 768px) {
-/* Adjustments for screens smaller than or equal to 768px */ 
-body { 
-    margin: 50px 20px; 
+ @media screen and (max-width: 768px) {
+/* Adjustments for screens smaller than or equal to 768px */
+body {
+    margin: 50px 20px;
     background-image: none;
-    background-color: black; 
-} 
-.login-container { 
-    padding: 30px 28px 20px; 
-    background: rgb(0, 0, 0); 
-    position: relative; 
-    top: 0; 
-    left: 0; 
-    height: 100%; 
-    width: 100%; 
-} 
-.logo { 
-    position: absolute; 
-    top: 10px; 
-    left: 50%; 
-    transform: translateX(-50%); 
-} 
-.login-box h1 { 
-    font-size: 28px; 
-} 
-.input-box input {
-     padding: 8px; 
-     font-size: 15px; 
-} 
-.signin { 
-    padding: 10px 16px; 
-    font-size: 16px; 
-} 
-.help-section { 
-    font-size: 13px; 
-} 
-.forgot-password a, 
-.signup-section a, 
-.terms-section a { 
-    font-size: 14px; 
-} 
-footer { 
-    padding: 10px 0; 
-} 
-.footer-links a { 
-    font-size: 13px; 
-} 
+    background-color: black;
 }
-@media screen and (max-width: 480px) {
- /* Adjustments for screens smaller than or equal to 480px */ 
-body { 
-    margin: 30px 10px;
-    background-image: none;
-    background-color: black; 
-} 
-.login-box h1 { 
-    font-size: 24px; 
-} 
-.input-box input { 
-    padding: 6px; 
-    font-size: 14px; 
-} 
-.signin { 
-    padding: 8px 14px; 
-    font-size: 14px; 
-} 
-.help-section { 
-    font-size: 12px; 
-} 
-.forgot-password a, 
-.signup-section a, 
-.terms-section a { 
-    font-size: 13px; 
-} 
-footer { 
-    padding: 8px 0; 
-} 
-.footer-links a { 
-    font-size: 12px; 
-} 
+.header{
+    position: absolute;
+    top: 3%;
+    left: 10%;
+}
+        
+.img-netflixIcon {
+    height: 50px;
+    width: 100px; 
+}
+
+
+.login-container {
+    padding: 30px 28px 20px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+
+}  
+.login-box h1 {
+    font-size: 28px;
+}
+.input-box input {
+    padding: 8px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.signin {
+    padding: 10px 16px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.help-section {
+    font-size: 13px;
+}
+
+.forgot-password a,
+.signup-section a,
+.terms-section a {
+    font-size: 14px;
+}
+
+footer {
+    padding: 10px 0;
+    margin-left: 3%;
+}
+
+.footer-links a {
+    font-size: 13px;
+}
+.down-footer{
+    padding-block: 0rem;
+    flex-direction: column;
+    column-gap: 10px;
+          
+}
+.footer-list{
+    margin: 0;
+    columns:10cm;
+    column-gap: 2cm;
+}
+.code{
+    margin:0;
+
+}
+.language{
+    margin: 0;
+    }
 }
