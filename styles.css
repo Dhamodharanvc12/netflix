@@ -5,9 +5,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 150%;
     margin: 100px;
     color: #fff;
+}
+.header{
+    position: absolute;
+    top: 1%;
+    left: 12%;
+}
+
+
+.img-netflixIcon {
+    height: 80px;
+    width: 155px;
+   
+    justify-items: flex-start;
 }
 
 
@@ -21,8 +34,8 @@ body {
 }
 .logo{
     position: absolute;
-    top: -10px;;
-    left: -10px;
+    top: 0px;;
+    left: 0px;
 }
 
 .login-box h1 {
@@ -48,7 +61,7 @@ body {
     
 }
 
-button {
+.signin{
     width: 100%;
     padding: 10px;
     background: #e50914;
@@ -61,7 +74,7 @@ button {
     font-weight: 700;
 }
 
-button:hover {
+.sigin:hover {
     background: #f40612;
 }
 
@@ -144,43 +157,75 @@ button:hover {
     line-height: 1.4;
 }
 
-footer {
-    background: rgb(7, 7, 7);
+.main-footer {
+
+    color: rgba(255, 255, 255, 0.7);
+    height: 45px;
     width: 100%;
-    height: 20%;
-    padding: 20px 0;
+    background-color:transparent;
     position: absolute;
-    bottom: 0;
-    text-align: center;
-    color: #fafafa;
-    margin-bottom: -250px; ;
+    bottom: 30px;
+    
 }
 
-.footer-content {
-    max-width: 900px;
-    margin: 0 auto;
+.code {
+    padding-left: 40px;
+    width: 70%;
+    margin: auto;
 }
 
-.footer-content p {
-    margin-bottom: 10px;
+.footer-list {
+
+    display: inline-flex;
+    list-style-type: none;
+    flex-direction: row;
+    /* column-gap: 300px; */
+    row-gap: 30px;
+    margin: auto;
+    width: 70%;
+    flex-wrap: wrap;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
 }
 
-.footer-links {
+.footer-list li {
+    flex: 0 0 calc(25% - 0.3rem);
+}
+
+.footer-list li a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.down-footer {
+    padding-inline: 0rem;
+    padding-block: 10rem;
     display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    gap: 50px;
+    align-content: center   ;
+    background-color: rgba(0, 0, 0, 0.756);
+    flex-direction: column;
+    row-gap: 30px;
+    height: 100%;
+    margin-top: 180px;
 }
 
-.footer-links a {
-    margin: 0 10px;
-    color: #8c8c8c;
-    text-decoration: none;
-    font-size: 14px;
+
+
+.img-netflixIcon {
+    margin-top: 10px;
+    margin-left: 10%;
 }
 
-.footer-links a:hover {
-    text-decoration: underline;
+.language {
+    width: 70%;
+    margin: auto;
+    padding-left: 30px;
+}
+
+.language select{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
 }
 .or-section {
     display: flex;
@@ -189,4 +234,86 @@ footer {
     font-size: 15px;
     color: #b3b3b3;
     margin-bottom: -16px;
+}
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+/* Adjustments for screens smaller than or equal to 768px */ 
+body { 
+    margin: 50px 20px; 
+    background-image: none;
+    background-color: black; 
+} 
+.login-container { 
+    padding: 30px 28px 20px; 
+    background: rgb(0, 0, 0); 
+    position: relative; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    width: 100%; 
+} 
+.logo { 
+    position: absolute; 
+    top: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+} 
+.login-box h1 { 
+    font-size: 28px; 
+} 
+.input-box input {
+     padding: 8px; 
+     font-size: 15px; 
+} 
+.signin { 
+    padding: 10px 16px; 
+    font-size: 16px; 
+} 
+.help-section { 
+    font-size: 13px; 
+} 
+.forgot-password a, 
+.signup-section a, 
+.terms-section a { 
+    font-size: 14px; 
+} 
+footer { 
+    padding: 10px 0; 
+} 
+.footer-links a { 
+    font-size: 13px; 
+} 
+}
+@media screen and (max-width: 480px) {
+ /* Adjustments for screens smaller than or equal to 480px */ 
+body { 
+    margin: 30px 10px;
+    background-image: none;
+    background-color: black; 
+} 
+.login-box h1 { 
+    font-size: 24px; 
+} 
+.input-box input { 
+    padding: 6px; 
+    font-size: 14px; 
+} 
+.signin { 
+    padding: 8px 14px; 
+    font-size: 14px; 
+} 
+.help-section { 
+    font-size: 12px; 
+} 
+.forgot-password a, 
+.signup-section a, 
+.terms-section a { 
+    font-size: 13px; 
+} 
+footer { 
+    padding: 8px 0; 
+} 
+.footer-links a { 
+    font-size: 12px; 
+} 
 }
